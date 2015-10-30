@@ -7,7 +7,7 @@
   
 	- Assume the array's size is `n`.
 
-  
+```cs  
 long Compute(int[] arr)
 {
     long count = 0;
@@ -22,6 +22,7 @@ long Compute(int[] arr)
     }
 	return count;
 }
+```
 
 Answer: The complexity of the code would be 0(n ^ 2) 
 
@@ -33,7 +34,7 @@ Answer: The complexity of the code would be 0(n ^ 2)
   
 	- Assume the input matrix has size of `n * m`.
 
-   
+```cs   
 long CalcCount(int[,] matrix)
 {
     long count = 0;
@@ -44,5 +45,6 @@ long CalcCount(int[,] matrix)
                     count++;
     return count;
 }
+```
 
 Answer: The complexity of the code would be 0(n * m)
